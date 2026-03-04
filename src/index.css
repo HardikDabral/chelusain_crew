@@ -1,13 +1,60 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  --color-bg: #F5F3EE;
+  --color-bg-soft: #ECE7DF;
+  --color-primary: #1F3A2E;
+  --color-primary-hover: #162A21;
+  --color-text: #1A1A1A;
+  --color-text-soft: #6E6E6E;
+  --color-white: #FFFFFF;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-luxury-bg text-luxury-textSoft font-body antialiased overflow-x-hidden;
+  }
+
+  section {
+    @apply py-section opacity-0 translate-y-[50px] transition-all duration-1000 ease-custom-ease;
+  }
+
+  section.revealed {
+    @apply opacity-100 translate-y-0;
+  }
+
+  section.hero {
+    @apply py-0 opacity-100 translate-y-0 transition-opacity duration-[1500ms];
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-black/5 backdrop-blur-xl border border-black/5;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0d0d0d;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-accent rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-accent-hover;
 }
