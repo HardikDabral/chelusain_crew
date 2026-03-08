@@ -1,6 +1,6 @@
 import React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { Instagram, Facebook, Twitter, ArrowUpRight, Mail, Phone, MapPin } from 'lucide-react';
+import { Instagram, Facebook, Twitter, ArrowUpRight, Phone, MapPin } from 'lucide-react';
 
 const Footer = () => {
     const location = useLocation();
@@ -87,7 +87,7 @@ const Footer = () => {
                             {[Instagram, Facebook, Twitter].map((Icon, i) => (
                                 <a
                                     key={i}
-                                    href="#"
+                                    href="#!"
                                     className="w-10 h-10 rounded-full border border-luxury-text/10 flex items-center justify-center text-luxury-textSoft hover:bg-luxury-primary hover:border-luxury-primary hover:text-white transition-all duration-500"
                                 >
                                     <Icon className="w-5 h-5" />
