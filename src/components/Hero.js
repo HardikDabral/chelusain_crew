@@ -40,7 +40,7 @@ const Hero = () => {
 
             <div className="absolute top-[90%] lg:top-[70%] left-0 w-full z-[1] pointer-events-none flex justify-center overflow-hidden">
                 <h2 className="text-[20vw] lg:text-[21.5vw] font-heading font-extrabold m-0 opacity-[0.9] whitespace-nowrap text-center block tracking-[-0.07em] animate-branding-up [animation-delay:0.6s] text-white leading-none">
-                    Chaulisan
+                    chelusain
                 </h2>
             </div>
 
