@@ -71,12 +71,12 @@ const Testimonials = () => {
     const [showMore, setShowMore] = useState(false);
 
     return (
-        <section className="py-24 px-5 bg-luxury-bg text-luxury-text overflow-hidden" id="testimonials">
+        <section className="py-12 md:py-24 px-5 bg-luxury-bg text-luxury-text overflow-hidden" id="testimonials">
             <div className="max-w-[1400px] mx-auto w-full">
 
                 {/* Unified Header */}
                 <div className="flex items-center gap-4 mb-10 text-caption font-medium uppercase tracking-widest text-luxury-textSoft">
-                    <span className="opacity-40">04</span>
+                    <span className="opacity-40">05</span>
                     <span>Testimonials × Kind Words</span>
                 </div>
 

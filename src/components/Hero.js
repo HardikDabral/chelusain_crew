@@ -13,7 +13,7 @@ const Hero = () => {
                 />
             </div>
 
-            <div className="relative z-[2] max-w-[1440px] mx-auto px-5 lg:-mt-[100px] w-full pt-32 lg:pt-0">
+            <div className="relative z-[2] max-w-[1440px] mx-auto px-5 lg:-mt-[100px] w-full pt-20 lg:pt-0">
                 <div className="flex flex-col lg:flex-row items-start lg:items-end justify-between gap-12 lg:gap-0 px-4 md:px-12 lg:px-20">
                     <div className="flex-1.5 animate-slide-up [animation-delay:0.2s] w-full lg:max-w-[750px]">
                         <h1 className="text-hero-title font-heading mb-0 text-luxury-text leading-[1.05]">

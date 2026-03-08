@@ -41,6 +41,32 @@ const serviceDetails = {
             'Studio & Location Options',
             'Bespoke Visual Framing'
         ]
+    },
+    'brand-storytelling': {
+        title: 'Brand Storytelling',
+        subtitle: 'Commercial narratives that resonate and convert.',
+        image: 'hero',
+        content: `At chelusain Crew, we translate brand values into compelling visual narratives. Our brand storytelling service goes beyond advertising; we create cinematic commercials and documentaries that build emotional connections with your audience. We combine strategic marketing insights with award-winning production values to elevate your market presence.`,
+        features: [
+            'Corporate Commercials',
+            'Product Documentaries',
+            'Social Media Content Strategy',
+            'Targeted Visual Campaigns',
+            'Brand Identity Films'
+        ]
+    },
+    'creative-direction': {
+        title: 'Creative Direction',
+        subtitle: 'Comprehensive artistic supervision for high-stakes projects.',
+        image: 'wedding',
+        content: `Our creative direction service provides the overarching vision for complex visual projects. We manage everything from pre-production moodboards to the final color grade. Whether it's a feature film, a luxury event, or a large-scale campaign, our creative directors ensure that every detail contributes to a singular, powerful artistic statement.`,
+        features: [
+            'Pre-production Planning',
+            'Moodboard & Lookdev',
+            'Artistic Supervision',
+            'Advanced Color Matching',
+            'End-to-End Project Management'
+        ]
     }
 };
 

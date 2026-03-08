@@ -40,6 +40,15 @@
   .glass {
     @apply bg-black/5 backdrop-blur-xl border border-black/5;
   }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
 }
 
 /* Custom Scrollbar */

@@ -37,7 +37,7 @@ module.exports = {
 
 
       spacing: {
-        'section': 'clamp(4rem, 10vw, 7.5rem)',
+        'section': 'clamp(2rem, 8vw, 7.5rem)',
       },
 
       transitionTimingFunction: {

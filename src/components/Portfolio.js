@@ -12,7 +12,7 @@ const Portfolio = () => {
 
                 {/* Unified Header Section */}
                 <div className="flex items-center gap-4 mb-10 text-caption font-medium uppercase tracking-widest text-luxury-textSoft">
-                    <span className="opacity-40">02</span>
+                    <span className="opacity-40">03</span>
                     <span>Portfolio × Archive</span>
                 </div>
 

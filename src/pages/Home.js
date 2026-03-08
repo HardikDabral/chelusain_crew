@@ -5,6 +5,7 @@ import Journey from '../components/Journey';
 import Portfolio from '../components/Portfolio';
 import Services from '../components/Services';
 import Testimonials from '../components/Testimonials';
+import WhyUs from '../components/WhyUs';
 
 const Home = () => {
     const location = useLocation();
@@ -54,6 +55,7 @@ const Home = () => {
         <div className="reveal-container">
             <Hero />
             <Journey />
+            <WhyUs />
             <Portfolio />
             <Services />
             <Testimonials />

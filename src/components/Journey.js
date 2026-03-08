@@ -24,11 +24,11 @@ const steps = [
 
 const Journey = () => {
     return (
-        <section className="bg-luxury-bg text-luxury-textSoft overflow-hidden" id="journey">
+        <section className="py-12 md:py-section bg-luxury-bg text-luxury-textSoft overflow-hidden" id="journey">
             <div className="max-w-[1400px] mx-auto w-full px-5">
                 {/* Header Section */}
                 <div className="flex items-center gap-4 mb-20 text-caption font-medium uppercase tracking-widest text-luxury-textSoft">
-                    <span className="opacity-40">01</span>
+                    <span className="opacity-40">02</span>
                     <span>Studio × Philosophy</span>
                 </div>
 

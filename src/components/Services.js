@@ -23,6 +23,20 @@ const services = [
         title: 'Editorial Archives',
         description: 'High-concept portraiture captured with absolute precision and depth.',
         image: 'fashion_portrait'
+    },
+    {
+        id: '04',
+        slug: 'brand-storytelling',
+        title: 'Brand Storytelling',
+        description: 'Elevating commercial narratives through cinematic vision and strategic direction.',
+        image: 'hero'
+    },
+    {
+        id: '05',
+        slug: 'creative-direction',
+        title: 'Creative Direction',
+        description: 'End-to-end post-production and artistic supervision for complex visual projects.',
+        image: 'wedding'
     }
 ];
 
@@ -33,7 +47,7 @@ const Services = () => {
 
                 {/* Header Section */}
                 <div className="flex items-center gap-4 mb-10 text-caption font-medium uppercase tracking-widest text-luxury-textSoft">
-                    <span className="opacity-40">03</span>
+                    <span className="opacity-40">04</span>
                     <span>Signature Services</span>
                 </div>
 
@@ -50,11 +64,10 @@ const Services = () => {
                     </div>
                 </div>
 
-                {/* Services Grid - 3 Only */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+                {/* Services Grid / Swiper on Mobile */}
+                <div className="flex lg:grid overflow-x-auto lg:overflow-x-visible no-scrollbar -mx-5 px-5 lg:mx-0 lg:px-0 flex-nowrap lg:grid-cols-3 gap-8 md:gap-12 snap-x snap-mandatory">
                     {services.map((service) => (
-                        <div key={service.id} className="group flex flex-col gap-8">
-                            {/* Image Container */}
+                        <div key={service.id} className="group flex flex-col gap-6 md:gap-8 min-w-[280px] md:min-w-0 w-[80vw] md:w-full snap-center">
                             <Link
                                 to={`/service/${service.slug}`}
                                 className="aspect-square rounded-luxury overflow-hidden bg-white/5 relative cursor-pointer"
@@ -68,16 +81,16 @@ const Services = () => {
                             </Link>
 
                             {/* Minimal Info */}
-                            <div className="flex flex-col items-start gap-4">
-                                <h3 className="text-card-title font-heading uppercase tracking-wide text-luxury-text">
-                                    {service.title}
+                            <div className="flex flex-col items-start gap-3 md:gap-4">
+                                <h3 className="text-lg md:text-card-title font-heading uppercase tracking-wide text-luxury-text">
+                                    {service.id} × {service.title}
                                 </h3>
-                                <p className="text-luxury-textSoft text-body-text max-w-[320px]">
+                                <p className="text-luxury-textSoft text-sm md:text-body-text max-w-[320px] leading-relaxed">
                                     {service.description}
                                 </p>
                                 <Link
                                     to={`/service/${service.slug}`}
-                                    className="flex items-center gap-2 text-caption uppercase tracking-[0.2em] text-luxury-text hover:text-luxury-textSoft transition-all group/btn pt-2 border-b border-luxury-text/20 pb-1"
+                                    className="flex items-center gap-2 text-xs md:text-caption uppercase tracking-[0.2em] text-luxury-text hover:text-luxury-textSoft transition-all group/btn pt-2 border-b border-luxury-text/20 pb-1"
                                 >
                                     Explore <ArrowUpRight className="w-4 h-4 transition-transform group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1" />
                                 </Link>
