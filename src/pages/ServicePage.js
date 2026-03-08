@@ -7,7 +7,7 @@ const serviceDetails = {
         title: 'Wedding Cinema',
         subtitle: 'Preserving the raw intimacy and cinematic soul of your union.',
         image: 'wedding',
-        content: `Our wedding cinema is more than just a video; it's a cinematic experience that captures the essence of your love story. We focus on raw emotions, natural light, and the subtle moments that make your day unique. Our team of directors and cinematographers work discreetly to ensure every laugh, tear, and whisper is preserved with the highest artistic precision.`,
+        content: `At chelusain Crew, our wedding cinema is more than just a video; it's a cinematic experience that captures the essence of your love story. We focus on raw emotions, natural light, and the subtle moments that make your day unique. Our team of directors and cinematographers work discreetly to ensure every laugh, tear, and whisper is preserved with the highest artistic precision.`,
         features: [
             'Cinematic Storytelling',
             '4K Ultra HD Delivery',
@@ -20,7 +20,7 @@ const serviceDetails = {
         title: 'Luxury Bridal Artistry',
         subtitle: 'Sophisticated aesthetics curated for your once-in-a-lifetime moment.',
         image: 'makeup',
-        content: `Bridal artistry is about enhancing your natural beauty while reflecting your personal style. We provide a luxury experience that begins long before the wedding day, with detailed consultations and trials. Our approach is rooted in timeless elegance, ensuring you look and feel like the most refined version of yourself as you step into your new beginning.`,
+        content: `chelusain bridal artistry is about enhancing your natural beauty while reflecting your personal style. We provide a luxury experience that begins long before the wedding day, with detailed consultations and trials. Our approach is rooted in timeless elegance, ensuring you look and feel like the most refined version of yourself as you step into your new beginning.`,
         features: [
             'Personalized Consultations',
             'Timeless Aesthetic Design',
@@ -33,7 +33,7 @@ const serviceDetails = {
         title: 'Editorial Archives',
         subtitle: 'High-concept portraiture captured with absolute precision and depth.',
         image: 'fashion_portrait',
-        content: `Our editorial archives are designed for those who seek high-concept visual storytelling. Whether for personal branding, fashion, or artistic expression, we bring a cinematic depth to every portrait. We play with light, shadow, and environment to create images that don't just show what you look like, but tell the world who you are.`,
+        content: `The chelusain editorial archives are designed for those who seek high-concept visual storytelling. Whether for personal branding, fashion, or artistic expression, we bring a cinematic depth to every portrait. We play with light, shadow, and environment to create images that don't just show what you look like, but tell the world who you are.`,
         features: [
             'Creative Direction',
             'Concept Development',

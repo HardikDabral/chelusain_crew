@@ -36,7 +36,7 @@ const Footer = () => {
                                 <div className="w-4 h-4 bg-white rounded-sm rotate-45"></div>
                             </div>
                             <span className="text-2xl font-heading tracking-tight uppercase whitespace-nowrap text-luxury-text">
-                                Chaulisan <span className="text-luxury-primary">Crew</span>
+                                chelusain <span className="text-luxury-primary">Crew</span>
                             </span>
                         </div>
                         <p className="mt-6 text-luxury-textSoft text-caption leading-relaxed max-w-[300px]">
@@ -98,7 +98,7 @@ const Footer = () => {
                 </div>
 
                 <div className="pt-10 flex flex-col md:flex-row justify-between items-center gap-6 border-t border-luxury-text/10 text-caption font-medium uppercase tracking-[0.3em] text-luxury-textSoft/40 transition-colors">
-                    <p>© 2024 Chaulisan Crew. All rights reserved.</p>
+                    <p>© 2024 chelusain Crew. All rights reserved.</p>
                     <button
                         onClick={() => {
                             if (location.pathname === '/') {

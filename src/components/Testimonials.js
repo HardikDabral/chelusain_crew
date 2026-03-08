@@ -4,7 +4,7 @@ import { X, Instagram } from 'lucide-react';
 const testimonials = [
     {
         id: 1,
-        quote: "The visual storytelling by Chaulisan Crew is absolutely pure! I can see the difference — it's fresh, cinematic, and professional. My brand feels like a masterpiece now.",
+        quote: "The visual storytelling by chelusain Crew is absolutely pure! I can see the difference — it's fresh, cinematic, and professional. My brand feels like a masterpiece now.",
         author: {
             name: "Priya Sharma",
             location: "MUMBAI",
@@ -15,7 +15,7 @@ const testimonials = [
     },
     {
         id: 2,
-        quote: "I've worked with many production houses, but Chaulisan's creative direction is on another level. The lighting is natural, soothing, and perfectly captured. Perfect for my editorial shoots.",
+        quote: "I've worked with many production houses, but chelusain's creative direction is on another level. The lighting is natural, soothing, and perfectly captured. Perfect for my editorial shoots.",
         author: {
             name: "Rajesh Kumar",
             location: "NEW DELHI",
@@ -46,7 +46,7 @@ const testimonials = [
     },
     {
         id: 5,
-        quote: "Chaulisan's work has transformed our digital campaign. The cinematography is therapeutic to watch, the editing creates the perfect rhythm, and everything is 100% professional.",
+        quote: "chelusain's work has transformed our digital campaign. The cinematography is therapeutic to watch, the editing creates the perfect rhythm, and everything is 100% professional.",
         author: {
             name: "Vikram Singh",
             location: "CHANDIGARH",
@@ -57,7 +57,7 @@ const testimonials = [
     },
     {
         id: 6,
-        quote: "From the initial consultation to the final delivery, Chaulisan Crew truly cares about vision and impact. Their work is pure, effective, and visually stunning.",
+        quote: "From the initial consultation to the final delivery, chelusain Crew truly cares about vision and impact. Their work is pure, effective, and visually stunning.",
         author: {
             name: "Kavita Reddy",
             location: "HYDERABAD",

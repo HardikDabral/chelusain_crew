@@ -18,14 +18,14 @@ const Hero = () => {
                     <div className="flex-1.5 animate-slide-up [animation-delay:0.2s] w-full lg:max-w-[750px]">
                         <h1 className="text-hero-title font-heading mb-0 text-luxury-text leading-[1.05]">
                             Crafting <span className="opacity-40">Timeless</span> <br className="hidden lg:block" />
-                            Legacies in the <br className="hidden lg:block" />
-                            Himalayan Wild
+                            Legacies with <br className="hidden lg:block" />
+                            Cinematic Perfection
                         </h1>
                     </div>
 
                     <div className="flex-1 max-w-[450px] animate-slide-up [animation-delay:0.4s] lg:mb-4">
                         <p className="text-hero-subtitle text-white lg:text-luxury-textSoft mb-10 leading-relaxed">
-                            Chaulisan Crew is a creative storytelling studio dedicated
+                            chelusain Crew is a creative storytelling studio dedicated
                             to preserving the raw, emotional essence of your most
                             intimate moments through high-end cinematography and artistry.
                         </p>
@@ -46,7 +46,7 @@ const Hero = () => {
 
 
 
-        </section>
+        </section >
     );
 };
 

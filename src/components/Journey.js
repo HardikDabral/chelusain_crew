@@ -47,7 +47,7 @@ const Journey = () => {
                         </div>
                         <div className="flex-1 max-w-[400px] animate-slide-up [animation-delay:0.3s]">
                             <p className="max-w-[500px] text-luxury-textSoft text-body-text">
-                                We don't just capture images; we preserve the soul of your story.
+                                At chelusain, we don't just capture images; we preserve the soul of your story.
                                 Our collective of artists and directors bring a cinematic
                                 perspective that transcends the traditional.
                             </p>
