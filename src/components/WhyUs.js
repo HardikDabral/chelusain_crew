@@ -1,5 +1,4 @@
 import React from 'react';
-import { Info } from 'lucide-react';
 
 const CountUpNumber = ({ end, duration = 2000 }) => {
     const [count, setCount] = React.useState(0);
