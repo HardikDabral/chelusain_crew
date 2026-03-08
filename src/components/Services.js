@@ -1,21 +1,25 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { ArrowUpRight } from 'lucide-react';
 
 const services = [
     {
         id: '01',
+        slug: 'wedding-cinema',
         title: 'Wedding Cinema',
         description: 'Preserving the raw intimacy and cinematic soul of your union.',
         image: 'wedding'
     },
     {
         id: '02',
+        slug: 'luxury-bridal-artistry',
         title: 'Luxury Bridal Artistry',
         description: 'Sophisticated aesthetics curated for your once-in-a-lifetime moment.',
         image: 'makeup'
     },
     {
         id: '03',
+        slug: 'editorial-archives',
         title: 'Editorial Archives',
         description: 'High-concept portraiture captured with absolute precision and depth.',
         image: 'fashion_portrait'
@@ -51,14 +55,17 @@ const Services = () => {
                     {services.map((service) => (
                         <div key={service.id} className="group flex flex-col gap-8">
                             {/* Image Container */}
-                            <div className="aspect-square rounded-luxury overflow-hidden bg-white/5 relative">
+                            <Link
+                                to={`/service/${service.slug}`}
+                                className="aspect-square rounded-luxury overflow-hidden bg-white/5 relative cursor-pointer"
+                            >
                                 <img
                                     src={require(`../assets/${service.image}.png`)}
                                     alt={service.title}
                                     className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
                                 />
                                 <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                            </div>
+                            </Link>
 
                             {/* Minimal Info */}
                             <div className="flex flex-col items-start gap-4">
@@ -68,9 +75,12 @@ const Services = () => {
                                 <p className="text-luxury-textSoft text-body-text max-w-[320px]">
                                     {service.description}
                                 </p>
-                                <button className="flex items-center gap-2 text-caption uppercase tracking-[0.2em] text-luxury-text hover:text-luxury-textSoft transition-all group/btn pt-2 border-b border-luxury-text/20 pb-1">
+                                <Link
+                                    to={`/service/${service.slug}`}
+                                    className="flex items-center gap-2 text-caption uppercase tracking-[0.2em] text-luxury-text hover:text-luxury-textSoft transition-all group/btn pt-2 border-b border-luxury-text/20 pb-1"
+                                >
                                     Explore <ArrowUpRight className="w-4 h-4 transition-transform group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1" />
-                                </button>
+                                </Link>
                             </div>
                         </div>
                     ))}

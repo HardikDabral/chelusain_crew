@@ -24,7 +24,7 @@ const Hero = () => {
                     </div>
 
                     <div className="flex-1 max-w-[450px] animate-slide-up [animation-delay:0.4s] lg:mb-4">
-                        <p className="text-hero-subtitle text-luxury-textSoft mb-10 leading-relaxed">
+                        <p className="text-hero-subtitle text-white lg:text-luxury-textSoft mb-10 leading-relaxed">
                             Chaulisan Crew is a creative storytelling studio dedicated
                             to preserving the raw, emotional essence of your most
                             intimate moments through high-end cinematography and artistry.
