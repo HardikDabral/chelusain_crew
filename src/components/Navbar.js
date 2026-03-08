@@ -74,7 +74,7 @@ const Navbar = () => {
                             className="flex items-center gap-2 cursor-pointer group z-[1001]"
                         >
                             <span className="text-lg md:text-xl font-heading tracking-tight uppercase whitespace-nowrap text-luxury-primary font-bold">
-                                Chaulisan Crew
+                                chelusain Crew
                             </span>
                         </div>
 
